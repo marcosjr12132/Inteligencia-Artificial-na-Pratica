@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz: Qual Engenharia é a Sua Cara?</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Áudio de fundo -->
+  <audio id="startSound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_68eb2c8cb6.mp3?filename=soft-piano-ambient-110116.mp3"></audio>
+
+  <!-- Tela Inicial -->
+  <div class="container" id="intro">
+    <h1>Bem-vindo ao Quiz</h1>
+    <p>Descubra qual engenharia combina com seu futuro!</p>
+    <button onclick="startQuiz()">Começar</button>
+  </div>
+
+  <!-- Quiz -->
+  <div class="container" id="quiz-container" style="display: none">
+    <h1 id="quiz-title">Quiz: Qual Engenharia é a sua cara?</h1>
+    <div id="quiz"></div>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
