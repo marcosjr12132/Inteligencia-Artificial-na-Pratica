@@ -29,8 +29,8 @@ O quiz identifica perfis para os seguintes cursos:
 ## 🌐 Acesse online (GitHub Pages)
 > Após publicar no GitHub Pages, adicione aqui:
 ```
-https://seu-usuario.github.io/nome-do-repositorio/
+https://github.com/marcosjr12132/Inteligencia-Artificial-na-Pratica.git
 ```
 
 ---
-Criado com 💻 por Marcos
+Criado com 💻 por Marcos Silva.
